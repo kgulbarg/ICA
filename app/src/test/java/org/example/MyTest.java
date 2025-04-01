@@ -4,7 +4,7 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 public class MyTest {
-    @Test public void appHasAGreeting() {
-        assertEquals(0.0, 0.0);
+    @Test public void testTruth() {
+        assertEquals(0.0, 0.0, 0);
     }
 }
